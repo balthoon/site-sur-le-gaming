@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Jeu Vidéo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le Monde des Jeux Vidéo</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#features">Caractéristiques</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <h2>Aventure Épique</h2>
+            <p>Plonge dans des mondes fantastiques et combats des créatures mythiques.</p>
+            <button id="startGame">Commencer le jeu</button>
+        </section>
+        <section id="features" class="features">
+            <div class="feature">
+                <h3>Graphismes Époustouflants</h3>
+                <p>Profite de graphismes en haute définition qui donnent vie aux mondes virtuels.</p>
+            </div>
+            <div class="feature">
+                <h3>Gameplay Immersif</h3>
+                <p>Une expérience de jeu fluide et captivante qui te plonge au cœur de l'action.</p>
+            </div>
+            <div class="feature">
+                <h3>Communauté Active</h3>
+                <p>Rejoins des milliers de joueurs et partage tes aventures.</p>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <h3>Galerie</h3>
+            <div class="gallery-grid">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <h3>Blog</h3>
+            <article class="blog-post">
+                <h4>Les Dernières Nouvelles du Monde des Jeux</h4>
+                <p>Date de publication : 29 janvier 2025</p>
+                <p>Découvre les dernières actualités et mises à jour de tes jeux préférés. Reste informé sur les nouvelles sorties, les événements et les promotions.</p>
+            </article>
+        </section>
+        <section id="contact" class="contact">
+            <h3>Contact</h3>
+            <form>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Monde des Jeux Vidéo. Tous droits réservés.</p>
+        <p><a href="#hero">Retour en haut</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
